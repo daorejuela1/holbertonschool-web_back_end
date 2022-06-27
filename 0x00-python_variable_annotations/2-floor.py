@@ -3,6 +3,7 @@
 Holberton example for doctstring with str or Text type
 """
 
+
 def floor(x: float) -> int:
     """
     Returns the floor of a float.

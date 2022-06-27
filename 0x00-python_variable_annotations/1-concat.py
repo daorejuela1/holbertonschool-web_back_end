@@ -3,6 +3,7 @@
 Holberton example for doctstring with str or Text type
 """
 
+
 def concat(a: str, b: str) -> str:
     """
     Concatenates two strings.
