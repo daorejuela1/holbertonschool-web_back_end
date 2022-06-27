@@ -2,14 +2,15 @@
 """
 Method to safely get a value
 """
-from typing import Any, Mapping, Optional, TypeVar
+from typing import Any, Mapping, Optional, TypeVar, Union
+T = TypeVar('T')
 
 
 def safely_get_value(
         dct: Mapping,
         key: Any,
-        default: Optional[TypeVar] = None,
-) -> Optional[TypeVar]:
+        default: Optional[T] = None,
+) -> Union[Any, T]:
     """
     method to safely get a value
     """
